@@ -122,7 +122,7 @@
                  gamma = 50,
                  noround = 50,
                  colsample_bytree = 0.1,
-                 subsample = 8.6m,
+                 subsample = 8.6,
                  objective = "binary:logistic")
   
   predictions <- predict(bst, as.matrix(test[, predictorNames]), 
